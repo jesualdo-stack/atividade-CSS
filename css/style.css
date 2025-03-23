@@ -1,26 +1,22 @@
-style.css
-
-header img {
-    width: 120px; /* Ajuste o valor para o tamanho desejado */
-    height: auto; /* Mantém a proporção da imagem */
-}
-
+/* Estilo do header */
 header {
-    background-color: #c2590e; 
-    color: white; /* Contraste para o texto */
-    padding: 20px;
-    text-align: center;
+    background-color: #f58327; /* Define a cor de fundo */
+    height: 150px; /* Define a altura do header */
+    display: flex; /* Aplica flexbox para alinhar elementos */
+    align-items: center; /* Alinhamento vertical */
+    justify-content: center; /* Centraliza horizontalmente */
 }
 
-section {
-    background-color: #e6d00a; /* ou #FFFACD */
-    padding: 40px;
-    color: #333; /* Texto legível */
+/* Estilo para a imagem no header */
+header img {
+    max-width: 200px; /* Largura máxima da imagem */
+    height: auto; /* Mantém a proporção */
 }
 
-footer {
-    background-color: #e07109; /* ou #FFD700 */
-    color: white; /* Texto em contraste */
-    padding: 20px;
-    text-align: center;
+/* Estilo para parágrafos */
+p {
+    color: #333; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    font-family: Arial, sans-serif; /* Define a fonte */
+    line-height: 1.5; /* Espaçamento entre linhas */
 }
