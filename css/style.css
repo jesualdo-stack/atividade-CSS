@@ -1,6 +1,6 @@
 /* Estilo do header */
 header {
-    background-color: #f58327; /* Define a cor de fundo */
+    background-color: #f7750b; /* Define a cor de fundo */
     height: 150px; /* Define a altura do header */
     display: flex; /* Aplica flexbox para alinhar elementos */
     align-items: center; /* Alinhamento vertical */
@@ -17,6 +17,70 @@ header img {
 p {
     color: #333; /* Cor do texto */
     font-size: 16px; /* Tamanho da fonte */
-    font-family: Arial, sans-serif; /* Define a fonte */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte */
     line-height: 1.5; /* Espaçamento entre linhas */
 }
+
+/* Aplica cor de fundo para todas as sections */
+section {
+    background-color: #FFDAB9; /* Cor de fundo: pêssego claro */
+    padding: 20px; /* Espaçamento interno */
+    margin: 0; /* Espaçamento entre as sections */
+}
+
+/* Adiciona estilos específicos para cada section */
+section:nth-of-type(1) {
+    background-color: #FF6347; /* Vermelho tomate */
+}
+
+section:nth-of-type(2) {
+    background-color: #FFA07A; /* Salmão claro */
+}
+
+section:nth-of-type(3) {
+    background-color: #FFD700; /* Dourado */
+}
+
+section:nth-of-type(4) {
+    background-color: #90EE90; /* Verde claro */
+}
+
+/* Estilo para a section */
+#bebidas {
+    background-color: #4cdee8; /* Cor de fundo suave */
+    padding: 20px;
+    text-align: center; /* Centraliza o título */
+}
+
+/* Container geral para os itens */
+.container {
+    display: flex; /* Organiza os itens lado a lado */
+    gap: 20px; /* Espaçamento entre os itens */
+    justify-content: center; /* Centraliza os itens dentro da section */
+    flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+}
+
+/* Estilo para cada item */
+.item {
+    background-color: #FFF5EE; /* Fundo suave para os containers */
+    padding: 10px;
+    width: 300px; /* Largura de cada container */
+    border: 1px solid #FFDAB9; /* Borda decorativa */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    text-align: center; /* Centraliza imagem e texto */
+}
+
+/* Estilo para as imagens */
+.item img {
+    max-width: 100%; /* Imagem ajustada à largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 10px; /* Espaço entre imagem e texto */
+}
+
+/* Estilo para o texto */
+.item p {
+    font-size: 14px; /* Tamanho do texto */
+    color: #333; /* Cor do texto */
+}
+
