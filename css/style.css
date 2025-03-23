@@ -1,0 +1,26 @@
+style.css
+
+header img {
+    width: 120px; /* Ajuste o valor para o tamanho desejado */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+header {
+    background-color: #c2590e; 
+    color: white; /* Contraste para o texto */
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    background-color: #e6d00a; /* ou #FFFACD */
+    padding: 40px;
+    color: #333; /* Texto legível */
+}
+
+footer {
+    background-color: #e07109; /* ou #FFD700 */
+    color: white; /* Texto em contraste */
+    padding: 20px;
+    text-align: center;
+}
