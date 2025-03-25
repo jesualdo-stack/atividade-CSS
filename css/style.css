@@ -1,17 +1,36 @@
 /* Estilo do header */
 header {
-    background-color: #f7750b; /* Define a cor de fundo */
-    height: 150px; /* Define a altura do header */
-    display: flex; /* Aplica flexbox para alinhar elementos */
-    align-items: center; /* Alinhamento vertical */
-    justify-content: center; /* Centraliza horizontalmente */
-}
-
-/* Estilo para a imagem no header */
-header img {
-    max-width: 200px; /* Largura máxima da imagem */
-    height: auto; /* Mantém a proporção */
-}
+    display: flex;
+    justify-content: space-between; /* Menu à esquerda e logo à direita */
+    align-items: center;            /* Centralizado verticalmente */
+    padding: 0 30px;
+    background-color: #d6a87a;      /* Fundo marrom do header */
+  }
+  
+menu {
+    display: flex;
+    gap: 45px;                      /* Espaçamento entre os itens do menu */
+  }
+  
+menu span {
+    font-family: Arial, sans-serif; /* Fonte clara e legível */
+    font-size: 16px;                /* Tamanho do texto */
+    font-weight: bold;              /* Negrito para destaque */
+    color: #f1c824;                 /* Cor branca para bom contraste */
+    text-transform: uppercase;      /* Tudo em maiúsculas */
+    text-decoration: none;          /* Remove sublinhado */
+    cursor: pointer;                /* Aponta que o texto é clicável */
+  }
+  
+menu span:hover {
+    color: #FFA500;                 /* Cor laranja ao passar o mouse */
+  }
+  
+img {
+  max-height: 200px;                /* Ajusta o tamanho proporcional */
+  padding: 20px;                    /* Espaçamento interno para evitar toque nas bordas */
+  }
+  
 
 /* Estilo para parágrafos */
 p {
@@ -23,31 +42,29 @@ p {
 
 /* Aplica cor de fundo para todas as sections */
 section {
-    background-color: #FFDAB9; /* Cor de fundo: pêssego claro */
+    background-color: #eadba5; /* Cor de fundo: pêssego claro */
     padding: 20px; /* Espaçamento interno */
-    margin: 0; /* Espaçamento entre as sections */
+    margin: 5; /* Espaçamento entre as sections */
 }
 
 /* Adiciona estilos específicos para cada section */
 section:nth-of-type(1) {
-    background-color: #FF6347; /* Vermelho tomate */
+    background-color: #e8e9cd; /* Vermelho tomate */
 }
 
-section:nth-of-type(2) {
-    background-color: #FFA07A; /* Salmão claro */
-}
 
 section:nth-of-type(3) {
-    background-color: #FFD700; /* Dourado */
+    background-color: #ece597; /* Dourado */
 }
 
 section:nth-of-type(4) {
-    background-color: #90EE90; /* Verde claro */
+    background-color: #f08b50; /* Verde claro */
 }
+
 
 /* Estilo para a section */
 #bebidas {
-    background-color: #4cdee8; /* Cor de fundo suave */
+    background-color: #adeaef; /* Cor de fundo suave */
     padding: 20px;
     text-align: center; /* Centraliza o título */
 }
