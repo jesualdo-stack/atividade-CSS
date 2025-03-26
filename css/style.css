@@ -5,7 +5,7 @@
     justify-content: space-around;
     align-items: center;           
     padding: 5px;
-    background-color: #c96b0c;   
+    background-color: #ba7608;   
 }
 
 .cabecalho-imagem {
@@ -24,61 +24,41 @@
     font-size: 18PX;
 }
   
-menu span {
-    font-family: Arial, sans-serif; /* Fonte clara e legível */
-    font-size: 16px;                /* Tamanho do texto */
-    font-weight: bold;              /* Negrito para destaque */
-    color: #f1c824;                 /* Cor branca para bom contraste */
-    text-transform: uppercase;      /* Tudo em maiúsculas */
-    text-decoration: none;          /* Remove sublinhado */
-    cursor: pointer;                /* Aponta que o texto é clicável */
-  }
-  
-menu span:hover {
-    color: #FFA500;                 /* Cor laranja ao passar o mouse */
-  }
   
 img {
-  max-height: 220px;                /* Ajusta o tamanho proporcional */
-  padding: 20px;                    /* Espaçamento interno para evitar toque nas bordas */
-  }
-  
+    max-height: 220px;                /* Ajusta o tamanho proporcional */
+    padding: 20px;                  /* Espaçamento interno para evitar toque nas bordas */
+    }
 
-/* Estilo para parágrafos */
-p {
-    color: #333; /* Cor do texto */
-    font-size: 16px; /* Tamanho da fonte */
-    font-family: Arial, Helvetica, sans-serif; /* Define a fonte */
-    line-height: 1.5; /* Espaçamento entre linhas */
+h1 {
+    margin-bottom: 20px;
 }
-
+ 
 /* Aplica cor de fundo para todas as sections */
-section {
-    background-color: #eadba5; /* Cor de fundo: pêssego claro */
+#docesfinos {
+    background-color: #eed559; /* Cor de fundo: pêssego claro */
     padding: 20px; /* Espaçamento interno */
     margin: 5; /* Espaçamento entre as sections */
+    text-align: center;
 }
 
-/* Adiciona estilos específicos para cada section */
-section:nth-of-type(1) {
-    background-color: #e8e9cd; /* Vermelho tomate */
-}
-
-
-section:nth-of-type(3) {
-    background-color: #ece597; /* Dourado */
-}
-
-section:nth-of-type(4) {
-    background-color: #f08b50; /* Verde claro */
-}
-
-
-/* Estilo para a section */
-#bebidas {
-    background-color: #adeaef; /* Cor de fundo suave */
+#Sobremesas {
+    background-color: #e2a66a;
     padding: 20px;
-    text-align: center; /* Centraliza o título */
+    text-align: center;    
+}
+
+
+#bolos {
+    background-color: #ebbb54; 
+    padding: 20px;
+    text-align: center;
+}
+
+#bebidas {
+    background-color: #ef9457; 
+    padding: 20px;
+    text-align: center; 
 }
 
 /* Container geral para os itens */
@@ -91,7 +71,7 @@ section:nth-of-type(4) {
 
 /* Estilo para cada item */
 .item {
-    background-color: #FFF5EE; /* Fundo suave para os containers */
+    background-color: #f0e5b5; /* Fundo suave para os containers */
     padding: 10px;
     width: 300px; /* Largura de cada container */
     border: 1px solid #FFDAB9; /* Borda decorativa */
@@ -100,7 +80,7 @@ section:nth-of-type(4) {
     text-align: center; /* Centraliza imagem e texto */
 }
 
-/* Estilo para as imagens */
+
 .item img {
     max-width: 100%; /* Imagem ajustada à largura do container */
     height: auto; /* Mantém a proporção da imagem */
@@ -109,7 +89,20 @@ section:nth-of-type(4) {
 
 /* Estilo para o texto */
 .item p {
-    font-size: 14px; /* Tamanho do texto */
-    color: #333; /* Cor do texto */
+    font-size: 35px; /* Tamanho do texto */
+    text-align: center;
+    color: #150101; /* Cor do texto */
 }
 
+.rodape {
+    display: flex;
+    max-height: 30px;        
+    padding: 32px;
+    background-color: #f2e30c;
+}
+
+.texto-centralizado {
+    text-align: center;
+    margin: auto;
+    display: block;
+}
