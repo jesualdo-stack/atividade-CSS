@@ -5,7 +5,7 @@
     justify-content: space-around;
     align-items: center;           
     padding: 5px;
-    background-color: #d6a87a;   
+    background-color: #c96b0c;   
 }
 
 .cabecalho-imagem {
@@ -15,6 +15,13 @@
 .cabecalho-menu {
     display: flex;
     gap: 35px; 
+}
+
+.cabecalho-menu-item {
+    font-family: sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18PX;
 }
   
 menu span {
