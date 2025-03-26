@@ -1,16 +1,21 @@
 /* Estilo do header */
-header {
+.cabecalho {
     display: flex;
-    justify-content: space-between; /* Menu à esquerda e logo à direita */
-    align-items: center;            /* Centralizado verticalmente */
-    padding: 0 30px;
-    background-color: #d6a87a;      /* Fundo marrom do header */
-  }
-  
-menu {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;           
+    padding: 5px;
+    background-color: #d6a87a;   
+}
+
+.cabecalho-imagem {
+    height: 400px;
+}
+
+.cabecalho-menu {
     display: flex;
-    gap: 45px;                      /* Espaçamento entre os itens do menu */
-  }
+    gap: 35px; 
+}
   
 menu span {
     font-family: Arial, sans-serif; /* Fonte clara e legível */
@@ -27,7 +32,7 @@ menu span:hover {
   }
   
 img {
-  max-height: 200px;                /* Ajusta o tamanho proporcional */
+  max-height: 220px;                /* Ajusta o tamanho proporcional */
   padding: 20px;                    /* Espaçamento interno para evitar toque nas bordas */
   }
   
@@ -72,7 +77,7 @@ section:nth-of-type(4) {
 /* Container geral para os itens */
 .container {
     display: flex; /* Organiza os itens lado a lado */
-    gap: 20px; /* Espaçamento entre os itens */
+    gap: 40px; /* Espaçamento entre os itens */
     justify-content: center; /* Centraliza os itens dentro da section */
     flex-wrap: wrap; /* Permite quebra de linha em telas menores */
 }
