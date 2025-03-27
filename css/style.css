@@ -24,21 +24,20 @@
     font-size: 18PX;
 }
   
-  
+/* Estilo imagem */
 img {
-    max-height: 220px;                /* Ajusta o tamanho proporcional */
-    padding: 20px;                  /* Espaçamento interno para evitar toque nas bordas */
+    max-height: 220px;  /* Ajusta o tamanho proporcional */
+    padding: 20px;   /* Espaçamento interno para evitar toque nas bordas */
     }
 
 h1 {
     margin-bottom: 20px;
 }
  
-/* Aplica cor de fundo para todas as sections */
 #docesfinos {
-    background-color: #eed559; /* Cor de fundo: pêssego claro */
-    padding: 20px; /* Espaçamento interno */
-    margin: 5; /* Espaçamento entre as sections */
+    background-color: #eed559; 
+    padding: 20px;
+    margin: 5; 
     text-align: center;
 }
 
@@ -64,9 +63,10 @@ h1 {
 /* Container geral para os itens */
 .container {
     display: flex; /* Organiza os itens lado a lado */
-    gap: 40px; /* Espaçamento entre os itens */
-    justify-content: center; /* Centraliza os itens dentro da section */
+    gap: 20px; /* Espaçamento entre os itens */
+    justify-content: space-between; /* Centraliza os itens dentro da section */
     flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+    align-items: flex-start;
 }
 
 /* Estilo para cada item */
@@ -106,3 +106,23 @@ h1 {
     margin: auto;
     display: block;
 }
+
+#frase {
+    background-color: #ffb6c1);
+    color: #5a3c32;
+    text-align: center; 
+    padding: 20px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave para destaque */
+    font-family: 'Arial', sans-serif; 
+  
+  #frase h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Espaço entre o título e o parágrafo */
+  }
+  
+  #frase p {
+    font-size: 18px;
+    line-height: 1.5; /* Altura da linha para facilitar a leitura */
+  }
+  
